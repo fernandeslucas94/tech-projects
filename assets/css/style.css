@@ -203,7 +203,7 @@ h2 {
 textarea {
     resize: none;
 
-    width: 70vw;
+    width: 80vw;
     height: 15rem;
 
     border: 1px solid #CCC;
@@ -217,7 +217,7 @@ input {
 #userEmail,
 #userPhone,
 #subject {
-    width: 450px;
+    width: 80vw;
     border: 1px solid #CCC;
 }
 
