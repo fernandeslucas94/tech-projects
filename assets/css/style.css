@@ -203,11 +203,13 @@ h2 {
 textarea {
     resize: none;
 
-    width: 80vw;
+    width: 70vw;
     height: 15rem;
 }
 
-
+input {
+    height: 2rem;
+}
 
 
 
@@ -218,4 +220,6 @@ textarea {
 footer {
     display: flex;
     justify-content: center;
+
+    margin-top: 2rem;
 }
