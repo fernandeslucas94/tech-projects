@@ -27,6 +27,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 header h1 {
@@ -35,9 +36,14 @@ header h1 {
     padding: 1rem;
 
     border: 2px solid #CCC;
+    margin-bottom: 1rem;
 }
 
+header p {
+    color: #CCC;
 
+    font-weight: 600;
+}
 
 /* ==== Menu Under Header ==== */
 .menu-under-header {
