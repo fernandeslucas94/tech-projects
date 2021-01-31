@@ -1,0 +1,66 @@
+/* ==== Global ==== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    background-color: #DDD;
+}
+
+/* ==== Header ==== */
+header {
+    width: 100%;
+    height: 180px;
+
+    background: blue;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    color: #CCC;
+    
+    padding: 1rem;
+
+    border: 1px solid #CCC;
+}
+
+
+
+/* ==== Menu Under Header ==== */
+.menu-under-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #fff;
+    
+    height: 3rem;
+}
+.menu-under-header ul {
+    display: inline-flex;
+    margin-top: 0.6rem;
+}
+
+.menu-under-header ul a {
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: #444;
+}
+
+.menu-under-header li {
+    list-style: none; 
+}
+
+#about-us {
+    margin-right: 1.5rem;
+}
+
+#contact {
+    margin-left: 1.5rem;
+}
