@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #DDD;
+    background-color: #EEE;
 }
 
 .container {
@@ -16,6 +16,14 @@ body {
     margin: auto;
     margin-top: 1.5rem;
 }
+
+
+
+
+
+
+
+
 
 /* ==== Header ==== */
 header {
@@ -44,6 +52,14 @@ header p {
 
     font-weight: 600;
 }
+
+
+
+
+
+
+
+
 
 /* ==== Menu Under Header ==== */
 .menu-under-header {
@@ -80,6 +96,12 @@ header p {
 }
 
 
+
+
+
+
+
+
 /* ==== Section About Us ==== */
 h2 {
     font-weight: normal;
@@ -91,4 +113,109 @@ h2 {
 
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
+}
+
+
+
+
+
+
+
+
+/* Section Projects */
+.projects {
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+#minas-food {
+    width: 100%;
+    height: 10rem;
+
+    margin-bottom: 2rem;
+    
+    display: flex;
+    align-items: center;
+
+    background-color: brown;
+}
+
+#profclean {
+    width: 100%;
+    height: 10rem;
+
+    margin-bottom: 2rem;
+
+    display: flex;
+    align-items: center;
+
+    background-color: #FFF;
+}
+
+#personal-page {
+    width: 100%;
+    height: 10rem;
+
+    margin-bottom: 2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#minas-food,
+#profclean,
+#personal-page {
+    border: 1px solid #444;
+}
+
+#profclean img {
+    width: 100%;
+}
+
+.subtitle {
+    margin-top: -1.5rem;
+    margin-bottom: 2rem;
+}
+
+.subtitle a {
+    text-decoration: none;
+    color: #000;
+}
+
+.subtitle a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+/* ==== Contact ==== */
+.contact h2, p{
+    margin-bottom: 2rem;
+}
+
+textarea {
+    resize: none;
+
+    width: 80vw;
+    height: 15rem;
+}
+
+
+
+
+
+
+
+
+/* ==== Footer ==== */
+footer {
+    display: flex;
+    justify-content: center;
 }
